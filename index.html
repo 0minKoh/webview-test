@@ -19,20 +19,23 @@
       >
         <h1>로그인 테스트</h1>
         <div class="input-container">
-          <input
-            type="text"
-            name="id"
-            id="input_id"
-            autocomplete="username"
-            placeholder="아이디"
-          />
-          <input
-            type="password"
-            name="pw"
-            id="input_pw"
-            autocomplete="current-password"
-            placeholder="비밀번호"
-          />
+          <form action="submit" method="post">
+            <input
+              type="text"
+              name="id"
+              id="input_id"
+              autocomplete="username"
+              placeholder="아이디"
+            />
+            <input
+              type="password"
+              name="pw"
+              id="input_pw"
+              autocomplete="current-password"
+              placeholder="비밀번호"
+            />
+            <input id="submit" type="submit" value="제출" />
+          </form>
         </div>
       </div>
     </div>
