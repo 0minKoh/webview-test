@@ -1,4 +1,4 @@
-const form = document.querySelector("form");
-form.addEventListener("submit", () => {
-  alert("Submit");
+const input = document.querySelector("#submit");
+form.addEventListener("click", () => {
+  window.location.reload();
 });
